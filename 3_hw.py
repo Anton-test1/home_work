@@ -2,7 +2,6 @@
 
 a = 3
 b = 8
-
 def print_max(a, b):
     if a > b:
         print(a)
@@ -33,7 +32,17 @@ def season(month):
     elif month == 9 or month == 10 or month == 11:
         print ('осень')
     else:
-        print('Неверный номер месяца')
+        print('Неверный номер')
 
 season(13)
 #номера месяцев для сокращения можно еще сделать через <= #
+
+#4
+
+a = 11
+b = 11
+c = 12
+if a > 10 and b > 10 and c > 10:
+    print ('yes')
+else:
+    print ('no')
