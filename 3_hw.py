@@ -42,6 +42,6 @@ season(13)
 def numbers_check(a, b, c):
 #пользовательская функция numbers_check
     if a > 10 and b > 10 and c > 10:
-        return "yes"
+        print "yes"
     else:
-        return "no"
+        print "no"
