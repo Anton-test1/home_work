@@ -12,13 +12,13 @@ print_max(a, b)
 
 #2
 
-a = 0
-b = 133
-if (a - b) == 135 or (b - a) == 135:
-  #проверяем, отличаются ли числа на 135 в любую сторону
-    print('yes')
-else:
-    print('no')
+def check_number(a, b):
+    if abs(a - b) == 135:
+#пользовательская функция check_number проверяет разницу между числами (abs возвращает модуль числа)
+        print "yes"
+    else:
+        print "no"
+    
 
 #3
 
@@ -39,10 +39,9 @@ season(13)
 
 #4
 
-a = 11
-b = 11
-c = 12
-if a > 10 and b > 10 and c > 10:
-    print ('yes')
-else:
-    print ('no')
+def numbers_check(a, b, c):
+#пользовательская функция numbers_check
+    if a > 10 and b > 10 and c > 10:
+        return "yes"
+    else:
+        return "no"
